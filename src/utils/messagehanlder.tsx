@@ -1,8 +1,5 @@
 const Ably = require('ably');
 
-//const ably = new Ably.Realtime.Promise('sqLe5g.JKstrA:*****');
-
-
 export default class MessageHandler {
 
     // Your Ably keys
