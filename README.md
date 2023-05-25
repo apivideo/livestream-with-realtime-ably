@@ -21,35 +21,40 @@ your app.
 
 # Project description
 
-This library is **TODO**
+A small example of how to build your own TikTok or Instagram Reels like use case. The example demostrates the use of api.video streaming and a css overlay of an emoji picker. We leverage Ably in order to create an instant emoji sharing between users.
+
+![livestream-with-realtime-communication-diagram-ably](https://github.com/apivideo/livestream-with-realtime-ably/assets/60220723/e03df495-c895-4358-8036-4e96af293269)
 
 # Getting started
 
 ## Installation
 
-**TODO**
+Once the repo is cloned, run npm install or yarn install
 
-## Code sample
+### Add your stream id:
+Option 1: Navigate to the api.video dashboard and copy the stream id from the stream details
 
-**TODO**
+Option 2: Fetch the stream id from the list of streams (https://docs.api.video/reference/get_live-streams)
 
-# Documentation
+Replace the stream id in src/pages/index.tsx const streamId = 'xxxxxxxxxx';
 
-**TODO**
+### Add your Ably api key
 
-# Dependencies
+Sign up to Ably
 
-We are using external library
+Copy the api key
 
-| Plugin | README |
-| ------ | ------ |
-| **TODO** [Link to project]() | **TODO** [Link to README]() |
+<img width="1045" alt="Screenshot 2023-05-25 at 16 18 14" src="https://github.com/apivideo/livestream-with-realtime-ably/assets/60220723/3c594b71-a92b-42ef-9675-b4f258b212d4">
 
-# Sample application
+Replace the api key in src/utils/messageHanlder.tsx `#apiKey = 'xxxxxx';`
 
-**TODO**
+### Run the example
+
+Run the example by `npm run dev`
+
+The example will run on `localhost:3000`
+
 
 # FAQ
 
-If you have any questions, ask us in the [community](https://community.api.video). Or
-use [issues](**TODO** link to github project issues)..
+If you have any questions, ask us in the [community](https://community.api.video).
