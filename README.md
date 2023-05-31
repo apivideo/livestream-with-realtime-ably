@@ -23,7 +23,8 @@ your app.
 
 A small example of how to build your own TikTok or Instagram Reels like use case. The example demostrates the use of api.video streaming and a css overlay of an emoji picker. We leverage Ably in order to create an instant emoji sharing between users.
 
-![livestream-with-realtime-communication-diagram-ably](https://github.com/apivideo/livestream-with-realtime-ably/assets/60220723/e03df495-c895-4358-8036-4e96af293269)
+![livestream-with-realtime-communication-diagram-ably](https://github.com/apivideo/livestream-with-realtime-ably/assets/60220723/7235eccb-4a34-477d-8d28-121467fe7f4d)
+
 
 # Getting started
 
@@ -44,7 +45,8 @@ Sign up to Ably
 
 Copy the api key
 
-<img width="1045" alt="Screenshot 2023-05-25 at 16 18 14" src="https://github.com/apivideo/livestream-with-realtime-ably/assets/60220723/3c594b71-a92b-42ef-9675-b4f258b212d4">
+<img width="1045" alt="get-ably-api-key" src="https://github.com/apivideo/livestream-with-realtime-ably/assets/60220723/8a3c4de0-9093-4b7b-a072-47b264100ce8">
+
 
 Replace the api key in src/utils/messageHanlder.tsx `#apiKey = 'xxxxxx';`
 
