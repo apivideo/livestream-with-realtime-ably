@@ -14,9 +14,6 @@ your app.
 - [Project description](#project-description)
 - [Getting started](#getting-started)
     - [Installation](#installation)
-    - [Code sample](#code-sample)
-- [Documentation](#documentation)
-- [Dependencies](#dependencies)
 - [FAQ](#faq)
 
 # Project description
